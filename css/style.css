@@ -1,0 +1,26 @@
+body{
+    background: #494bc2;
+}
+.calclulator-grid{
+    padding-top: 80px;
+    display:grid;
+    justify-content:center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(90px, auto) repeat(7, 100px);
+}
+.calclulator-grid button{
+    font-size:30px
+}
+#spanthree{
+    grid-column: span 2;     ;
+}
+#plusbutton{
+    grid-row: span 2;
+}
+.outputbutton{
+    grid-column: span 2;
+}
+.output{
+    grid-column: 1/-1;
+}
